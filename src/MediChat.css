@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.chatBox {
+  border: 1px solid black;
+  min-height: 400px;
+  padding: 20px;
+}
+
+.inputArea {
+  margin-top: 20px;
+}
+
+.inputArea input {
+  width: 80%;
+  margin-right: 10px;
+}
+
+.inputArea button {
+  padding: 10px 20px;
+}
+
+.newline-text {
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-bottom: 20px;
+}
