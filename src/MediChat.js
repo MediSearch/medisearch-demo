@@ -8,7 +8,7 @@ function MediChat() {
   const [message, setMessage] = useState('');
   const [conversation, setConversation] = useState([]);
   const [conversationId, setConversationId] = useState('');
-  const apiKey = "8cf09c53-2c2b-407b-89af-e7437fb67772";
+  const apiKey = "your_api_key";
 
   useEffect(() => {
     setConversationId(uuidv4());
